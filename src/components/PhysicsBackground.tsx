@@ -112,7 +112,8 @@ const PhysicsBackground: React.FC = () => {
       ctx.fillStyle = gradient;
       
       for (let i = 0; i < 3; i++) {
-        const radius = 50 + Math.sin(time + i * 2) * 100;
+        // Ensure radius is always positive by using Math.abs and adding a minimum value
+        const radius = Math.abs(30 + Math.sin(time + i * 2) * 60) + 10;
         ctx.beginPath();
         ctx.arc(canvas.width * (0.2 + i * 0.3), canvas.height * 0.5, radius, 0, Math.PI * 2);
         ctx.fill();
