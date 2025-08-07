@@ -52,6 +52,25 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Physics Brand Colors
+				'physics-purple': {
+					DEFAULT: 'hsl(var(--physics-purple))',
+					dark: 'hsl(var(--physics-purple-dark))',
+					light: 'hsl(var(--physics-purple-light))'
+				},
+				'physics-teal': {
+					DEFAULT: 'hsl(var(--physics-teal))',
+					dark: 'hsl(var(--physics-teal-dark))',
+					light: 'hsl(var(--physics-teal-light))'
+				},
+				'physics-gold': {
+					DEFAULT: 'hsl(var(--physics-gold))',
+					dark: 'hsl(var(--physics-gold-dark))'
+				},
+				'physics-navy': {
+					DEFAULT: 'hsl(var(--physics-navy))',
+					light: 'hsl(var(--physics-navy-light))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +81,25 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				'inter': ['Inter', 'sans-serif'],
+				'cairo': ['Cairo', 'sans-serif'],
+				'playfair': ['Playfair Display', 'serif'],
+				'mono': ['JetBrains Mono', 'monospace'],
+			},
+			backgroundImage: {
+				'electromagnetic': 'var(--gradient-electromagnetic)',
+				'quantum': 'var(--gradient-quantum)',
+				'circuit': 'var(--gradient-circuit)',
+				'wave': 'var(--gradient-wave)',
+			},
+			boxShadow: {
+				'electromagnetic': 'var(--shadow-electromagnetic)',
+				'quantum': 'var(--shadow-quantum)',
+				'circuit': 'var(--shadow-circuit)',
+				'glow-em': 'var(--glow-electromagnetic)',
+				'glow-teal': 'var(--glow-teal)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
